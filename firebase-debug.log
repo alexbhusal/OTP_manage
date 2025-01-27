@@ -1,0 +1,38 @@
+[debug] [2024-02-24T04:56:24.928Z] ----------------------------------------------------------------------
+[debug] [2024-02-24T04:56:24.929Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2024-02-24T04:56:24.929Z] CLI Version:   13.3.1
+[debug] [2024-02-24T04:56:24.929Z] Platform:      darwin
+[debug] [2024-02-24T04:56:24.930Z] Node Version:  v18.18.2
+[debug] [2024-02-24T04:56:24.930Z] Time:          Sat Feb 24 2024 10:41:24 GMT+0545 (Nepal Time)
+[debug] [2024-02-24T04:56:24.930Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-24T04:56:24.933Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-24T04:56:24.933Z] > authorizing via signed-in user (bhvnbhsl@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/alexbhusal/Desktop/REACT_JS/OTP VALIDATION
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-24T04:56:28.974Z] > refreshing access token with scopes: []
+[debug] [2024-02-24T04:56:28.976Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-24T04:56:28.976Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-24T04:56:29.295Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-24T04:56:29.295Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-24T04:56:29.309Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-24T04:56:30.077Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-24T04:56:30.078Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-02-24T05:18:53.514Z] Error: read EIO
+    at TTY.onStreamRead (node:internal/stream_base_commons:217:20)
